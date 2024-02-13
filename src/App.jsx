@@ -4,6 +4,7 @@ import {Navbar} from "./components";
 const App = () => (
     <main>
         <Navbar/>
+
     </main>
 )
 
