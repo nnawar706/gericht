@@ -52,4 +52,5 @@ const Navbar = () => {
     )
 }
 
+// return memoized version of Navbar
 export default memo(Navbar)
