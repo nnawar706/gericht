@@ -1,11 +1,13 @@
-import {Navbar} from "./components";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 
+import Landing from "./pages/Landing"
 
 const App = () => (
-    <main>
-        <Navbar/>
-
-    </main>
+    <Router>
+        <Routes>
+            <Route path="/" element={<Landing/>}/>
+        </Routes>
+    </Router>
 )
 
 export default App

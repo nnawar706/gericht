@@ -25,7 +25,8 @@ const Navbar = () => {
             <div className="flex justify-end items-center">
                 <a href=""
                    className="mx-4 no-underline transition duration-500 ease-in-out font-primary text-white
-                   tracking-wider uppercase font-normal leading-7 text-base hover:border-b border-transparent hover:border-golden-primary">Browse</a>
+                   tracking-wider uppercase font-normal leading-7 text-base hover:border-b
+                   border-transparent hover:border-golden-primary">Browse</a>
             </div>
 
             {/* navbar on smaller devices */}

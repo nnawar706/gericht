@@ -1,4 +1,4 @@
 import Navbar from "./Navbar"
-import
+import Hero from "./Hero";
 
-export { Navbar }
+export { Navbar, Hero }
