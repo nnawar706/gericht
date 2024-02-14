@@ -1,10 +1,11 @@
-import {Hero, Navbar} from "../components"
+import {Hero, ImportantLinks, Navbar} from "../components"
 
 const Landing = () => {
     return (
         <>
             <Navbar />
             <Hero/>
+            <ImportantLinks/>
         </>
     )
 }
