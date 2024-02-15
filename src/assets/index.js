@@ -5,6 +5,7 @@ import knife from './knife.png'
 import g from './G.png'
 import chef from './chef.png'
 import quote from './quote.png'
+import sign from './sign.png'
 
 export {
     logo,
@@ -13,5 +14,6 @@ export {
     knife,
     g,
     chef,
-    quote
+    quote,
+    sign
 }

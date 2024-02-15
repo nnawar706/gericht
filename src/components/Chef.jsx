@@ -1,4 +1,4 @@
-import {chef, quote} from "../assets"
+import {chef, quote, sign} from "../assets"
 
 const Chef = () => (
     <section className="flex flex-col md:flex-row justify-between items-center bg-[url('./assets/bg.png')]
@@ -14,8 +14,20 @@ const Chef = () => (
             </h1>
             <div className="w-full flex flex-col mt-20">
                 <div className="flex justify-start items-end">
-                    <img src={quote} alt="quote-bg" className="w-4/5 mt-12 md:w-60 lg:w-80"/>
+                    <img src={quote} alt="quote-bg" className="w-1/5 mt-12 md:w-48 lg:w-60"/>
+                    <p className="font-primary text-white font-normal tracking-wider capitalize">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .
+                    </p>
                 </div>
+                <p className="font-primary text-white font-normal tracking-wider capitalize">
+                    auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc.
+                </p>
+            </div>
+
+            <div className="w-full mt-12">
+                <p className="font-base font-normal text-3xl leading-10 tracking-wider capitalize text-golden-primary">Kevin Luo</p>
+                <p className="font-primary text-white font-normal tracking-wider capitalize">Proud Chef</p>
+                <img src={sign} alt="signature" className="w-4/5 md:w-60 lg:w-80 mt-12"/>
             </div>
         </div>
     </section>
