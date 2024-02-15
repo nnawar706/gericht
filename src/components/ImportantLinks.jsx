@@ -11,10 +11,10 @@ const ImportantLinks = () => (
         <div className="flex flex-col md:flex-row justify-center items-center w-full z-10">
             <div className="flex flex-1 flex-col justify-end items-end text-right">
                 <h1 className="font-base text-golden-primary tracking-wider leading-relaxed
-                md:leading-loose text-3xl md:text-4xl capitalize">unlock personalized meal plans1</h1>
+                md:leading-loose text-3xl md:text-4xl capitalize">pick your bowl</h1>
                 <img src={spoon} alt="spoon-bg" className="w-11 lg:w-[80px]"/>
                 <p className="my-4 font-primary text-white capitalize text-sm leading-7 tracking-wider font-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
+                    Feeling indecisive about your next culinary adventure? Allow us to be your culinary connoisseur, crafting delights to match your unique preferences and cravings.
                 </p>
                 <Button heading="Get Started" redirectUrl="/"/>
             </div>
@@ -25,10 +25,10 @@ const ImportantLinks = () => (
 
             <div className="flex flex-1 flex-col justify-end items-start text-left">
                 <h1 className="font-base text-golden-primary tracking-wider leading-relaxed
-                md:leading-loose text-3xl md:text-4xl capitalize">unlock personalized meal plans</h1>
+                md:leading-loose text-3xl md:text-4xl capitalize">personalized meal plans</h1>
                 <img src={spoon} alt="spoon-bg" className="w-11 lg:w-[80px] transform rotate-180"/>
                 <p className="my-4 font-primary text-white capitalize text-sm leading-7 tracking-wider font-normal">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
+                    Let our personalized meal plans elevate your dining experience to new heights of gastronomic delight with meals tailored exclusively to your palate and preferences.
                 </p>
                 <Button heading="Get Started" redirectUrl="/"/>
             </div>

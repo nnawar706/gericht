@@ -3,11 +3,15 @@ import welcome from './welcome.png'
 import spoon from './spoon.png'
 import knife from './knife.png'
 import g from './G.png'
+import chef from './chef.png'
+import quote from './quote.png'
 
 export {
     logo,
     welcome,
     spoon,
     knife,
-    g
+    g,
+    chef,
+    quote
 }
