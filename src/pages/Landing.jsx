@@ -1,5 +1,6 @@
 import {Hero, ImportantLinks, Navbar} from "../components"
 import Chef from "../components/Chef.jsx";
+import Footer from "../components/Footer.jsx";
 
 const Landing = () => {
     return (
@@ -8,6 +9,7 @@ const Landing = () => {
             <Hero/>
             <ImportantLinks/>
             <Chef/>
+            <Footer/>
         </>
     )
 }
